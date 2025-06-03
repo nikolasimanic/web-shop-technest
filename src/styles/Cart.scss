@@ -1,0 +1,220 @@
+.cart {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 8em;
+
+    h1 {
+        background-color: #182952;
+        color: #ddd;
+        font: 2rem roboto;
+        font-weight: bold;
+        padding: 5px 5px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cart-items {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cart-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* Raspoređivanje stavki na krajeve */
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .item-details {
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-between;
+            /* Rasporedi tekst i ikonicu */
+            align-items: center;
+
+            h3 {
+                margin: 0;
+                font-size: 1.2rem;
+                color: #333;
+            }
+
+            p {
+                margin: 5px 0;
+                color: #666;
+            }
+
+            .price {
+                font-weight: bold;
+                color: #000;
+                margin-top: 10px;
+                font-size: 1.5rem;
+            }
+
+            .remove-item-btn {
+                background: transparent;
+                border: none;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 2rem;
+                color: #e74c3c;
+
+                .faTrashAlt {
+                    color: #e74c3c;
+                    font-size: 18px;
+                    transition: color 0.3s;
+
+                    &:hover {
+                        color: #c0392b;
+                    }
+                }
+            }
+        }
+    }
+
+    .cart-summary {
+        margin-top: 20px;
+        text-align: center;
+        border-top: 1px solid #ccc;
+        padding: 10px;
+        padding-top: 20px;
+        background-color: #182952;
+
+        h3 {
+            margin-bottom: 10px;
+            color: #ccc;
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #ccc;
+        }
+
+        .checkout-btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #2980b9;
+            }
+        }
+    }
+
+    .empty {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        border: 2px dashed #ccc;
+        color: #888;
+
+        p {
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+    }
+
+    .stylish-empty-cart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40em;
+        max-width: 400px;
+        background: linear-gradient(135deg, #1e1e2f, #23235c);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 20px;
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+
+            .icon-container {
+                background: rgba(255, 255, 255, 0.1);
+                padding: 20px;
+                border-radius: 50%;
+                margin-bottom: 20px;
+
+                .empty-cart-icon {
+                    width: 80px;
+                    height: 80px;
+                    color: #61f4ff;
+                }
+            }
+
+            h2 {
+                font-size: 1.8rem;
+                margin-bottom: 10px;
+                font-weight: bold;
+                color: #61e7ff;
+            }
+
+            p {
+                font-size: 1rem;
+                margin-bottom: 20px;
+                color: #ddd;
+            }
+
+            .explore-btn {
+                background: #0026ff;
+                color: #fff;
+                border: none;
+                padding: 12px 30px;
+                font-size: 1.1rem;
+                font-weight: bold;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: transform 0.3s, background-color 0.3s;
+
+                &:hover {
+                    background: #3946ff;
+                    transform: translateY(-3px);
+                }
+
+                &:active {
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+
+
+
+}

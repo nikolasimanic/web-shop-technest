@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.home {
+    font-family: 'Roboto', sans-serif;
+    
+    .hero {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        overflow: hidden;
+
+        .lottie-background {
+            position: absolute;
+            top: 10;
+            left: 0;
+            width: 40%;
+            height: 30%;
+            z-index: 1;
+        }
+
+        .hero-content {
+            z-index: 1;
+
+            h1 {
+                font-size: 4rem;
+                margin: 0;
+                animation: fadeIn 1.5s ease forwards;
+                animation: animate-text 2s infinite ease-in-out;
+            }
+
+            p {
+                font-size: 1.5rem;
+                margin: 20px 0 30px;
+                animation: fadeIn 1.5s 0.5s ease forwards;
+                animation: animate-text 2s infinite ease-in-out 2s;
+            }
+
+            .cta {
+                display: inline-block;
+                background-color: #0084ff;
+                color: #fff;
+                padding: 15px 30px;
+                border-radius: 5px;
+                font-size: 1.2rem;
+                text-decoration: none;
+                transition: background-color 0.3s ease;
+                animation: fadeIn 1.5s 1s ease forwards;
+
+                &:hover {
+                    background-color: #1e05ff;
+                }
+            }
+        }
+    }
+}
+
+@keyframes animate-text {
+    0%, 100% { opacity: 1; transform: translateY(0); }
+    50% { opacity: 0.8; transform: translateY(10px); }
+}
+
+/* Latest Products Section */
+.latest-products {
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+    color: #333;
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .product-list {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        .product-item {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+                margin: 10px 0;
+            }
+
+            p {
+                font-size: 1rem;
+                color: #555;
+            }
+        }
+    }
+
+    .cta {
+        margin-top: 20px;
+        display: inline-block;
+        background-color: #0084ff;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1rem;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #1e05ff;
+        }
+    }
+}
+
+.add-to-cart-btn {
+    background-color: #1e90ff;
+    /* Plava pozadina */
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    /* Bela ikonica */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    /* Sirina kartice */
+    padding: 15px;
+    /* Dodaj padding za bolji izgled */
+    border-bottom-left-radius: 8px;
+    /* Radijusi donjih uglova */
+    border-bottom-right-radius: 8px;
+    /* Radijusi donjih uglova */
+    text-align: center;
+}
+
+.remove-from-cart-btn {
+    background-color: #ff1e1e;
+    /* Plava pozadina */
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    /* Bela ikonica */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    /* Sirina kartice */
+    padding: 15px;
+    /* Dodaj padding za bolji izgled */
+    border-bottom-left-radius: 8px;
+    /* Radijusi donjih uglova */
+    border-bottom-right-radius: 8px;
+    /* Radijusi donjih uglova */
+    text-align: center;
+}
+
+/* Footer Section */
+.footer {
+    padding: 20px;
+    background-color: #182952;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9rem;
+
+    nav {
+        margin-top: 10px;
+
+        a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #1e90ff;
+            }
+        }
+    }
+}
+
+   

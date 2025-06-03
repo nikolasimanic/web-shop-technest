@@ -1,0 +1,402 @@
+[
+    {
+        "id": "1",
+        "name": "iPhone 14 Pro",
+        "description": "Apple iPhone 14 Pro with 256GB storage",
+        "price": 999.99,
+        "category": "Phone",
+        "image": "/images/Iphone14.webp"
+    },
+    {
+        "id": "2",
+        "name": "Samsung Galaxy S23",
+        "description": "Samsung Galaxy S23 with 128GB storage",
+        "price": 899.99,
+        "category": "Phone",
+        "image": "/images/GalaxyS23.webp"
+    },
+    {
+        "id": "3",
+        "name": "MacBook Pro 16\"",
+        "description": "Apple MacBook Pro 16-inch with M1 chip",
+        "price": 2399.99,
+        "category": "Laptop",
+        "image": "/images/MacBookPro16.webp"
+    },
+    {
+        "id": "4",
+        "name": "Dell XPS 13",
+        "description": "Dell XPS 13 Laptop with 13.4-inch display",
+        "price": 1299.99,
+        "category": "Laptop",
+        "image": "/images/DellXPS13.webp"
+    },
+    {
+        "id": "5",
+        "name": "Samsung 55\" 4K Smart TV",
+        "description": "Samsung 4K UHD Smart TV with HDR",
+        "price": 599.99,
+        "category": "TV",
+        "image": "/images/SamsungTV55.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Sony Bravia 65\" OLED TV",
+        "description": "Sony Bravia 65-inch OLED 4K HDR TV",
+        "price": 1499.99,
+        "category": "TV",
+        "image": "/images/SonyBravia65.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "description": "Lenovo ThinkPad X1 Carbon 14-inch business laptop",
+        "price": 1099.99,
+        "category": "Laptop",
+        "image": "/images/ThinkPadX1Carbon.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Asus ROG Zephyrus G14",
+        "description": "Asus ROG Zephyrus G14 gaming laptop with Ryzen 9",
+        "price": 1599.99,
+        "category": "Laptop",
+        "image": "/images/ROGZephyrusG14.webp"
+    },
+    {
+        "id": "9",
+        "name": "LG 75\" 4K UHD Smart TV",
+        "description": "LG 75-inch 4K UHD Smart TV with ThinQ AI",
+        "price": 1399.99,
+        "category": "TV",
+        "image": "/images/LGTV75.avif"
+    },
+    {
+        "id": "10",
+        "name": "Bose QuietComfort 45",
+        "description": "Bose QuietComfort 45 noise-canceling headphones",
+        "price": 329.99,
+        "category": "Audio",
+        "image": "/images/BoseQC45.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Sony WH-1000XM4",
+        "description": "Sony WH-1000XM4 wireless noise-canceling headphones",
+        "price": 349.99,
+        "category": "Audio",
+        "image": "/images/SonyWH1000XM4.webp"
+    },
+    {
+        "id": "12",
+        "name": "HP Spectre x360 14",
+        "description": "HP Spectre x360 14 convertible laptop with Intel i7",
+        "price": 1399.99,
+        "category": "Laptop",
+        "image": "/images/HPSpectrex360.webp"
+    },
+    {
+        "id": "13",
+        "name": "Google Pixel 7",
+        "description": "Google Pixel 7 with 128GB storage",
+        "price": 699.99,
+        "category": "Phone",
+        "image": "/images/Pixel7.webp"
+    },
+    {
+        "id": "14",
+        "name": "OnePlus 10 Pro",
+        "description": "OnePlus 10 Pro with 256GB storage and 5G support",
+        "price": 799.99,
+        "category": "Phone",
+        "image": "/images/OnePlus10Pro.webp"
+    },
+    {
+        "id": "15",
+        "name": "Samsung Galaxy Tab S8",
+        "description": "Samsung Galaxy Tab S8 with 128GB storage",
+        "price": 649.99,
+        "category": "Tablet",
+        "image": "/images/GalaxyTabS8.webp"
+    },
+    {
+        "id": "16",
+        "name": "Apple iPad Pro 12.9\"",
+        "description": "Apple iPad Pro 12.9-inch with M1 chip",
+        "price": 1099.99,
+        "category": "Tablet",
+        "image": "/images/iPadPro12.webp"
+    },
+    {
+        "id": "17",
+        "name": "Sony PlayStation 5",
+        "description": "Sony PlayStation 5 console with 825GB storage",
+        "price": 499.99,
+        "category": "Gaming",
+        "image": "/images/PS5.webp"
+    },
+    {
+        "id": "18",
+        "name": "Xbox Series X",
+        "description": "Microsoft Xbox Series X console with 1TB storage",
+        "price": 499.99,
+        "category": "Gaming",
+        "image": "/images/XboxSeriesX.webp"
+    },
+    {
+        "id": "19",
+        "name": "Samsung Odyssey G9",
+        "description": "Samsung Odyssey G9 curved gaming monitor",
+        "price": 1199.99,
+        "category": "Monitor",
+        "image": "/images/OdysseyG9.webp"
+    },
+    {
+        "id": "20",
+        "name": "Dell UltraSharp 27\"",
+        "description": "Dell UltraSharp 27-inch 4K monitor",
+        "price": 599.99,
+        "category": "Monitor",
+        "image": "/images/DellUltraSharp27.webp"
+    },
+    {
+        "id": "21",
+        "name": "Apple AirPods Pro (2nd Gen)",
+        "description": "Apple AirPods Pro wireless earbuds with noise cancellation",
+        "price": 249.99,
+        "category": "Audio",
+        "image": "/images/AirPodsPro.webp"
+    },
+    {
+        "id": "22",
+        "name": "Google Nest Hub (2nd Gen)",
+        "description": "Google Nest Hub smart display with Google Assistant",
+        "price": 99.99,
+        "category": "Smart Home",
+        "image": "/images/NestHub.webp"
+    },
+    {
+        "id": "23",
+        "name": "Amazon Echo Dot (4th Gen)",
+        "description": "Amazon Echo Dot smart speaker with Alexa",
+        "price": 49.99,
+        "category": "Smart Home",
+        "image": "/images/EchoDot.webp"
+    },
+    {
+        "id": "24",
+        "name": "Apple Watch Series 8",
+        "description": "Apple Watch Series 8 with GPS and cellular",
+        "price": 499.99,
+        "category": "Wearable",
+        "image": "/images/AppleWatch8.webp"
+    },
+    {
+        "id": "25",
+        "name": "Fitbit Charge 5",
+        "description": "Fitbit Charge 5 health and fitness tracker",
+        "price": 179.99,
+        "category": "Wearable",
+        "image": "/images/FitbitCharge5.webp"
+    },
+    {
+        "id": "26",
+        "name": "Canon EOS R5",
+        "description": "Canon EOS R5 full-frame mirrorless camera",
+        "price": 3899.99,
+        "category": "Camera",
+        "image": "/images/CanonEOSR5.webp"
+    },
+    {
+        "id": "27",
+        "name": "Nikon Z6 II",
+        "description": "Nikon Z6 II full-frame mirrorless camera",
+        "price": 1999.99,
+        "category": "Camera",
+        "image": "/images/NikonZ6II.webp"
+    },
+    {
+        "id": "28",
+        "name": "GoPro HERO11 Black",
+        "description": "GoPro HERO11 Black action camera",
+        "price": 399.99,
+        "category": "Camera",
+        "image": "/images/GoProHERO11.webp"
+    },
+    {
+        "id": "29",
+        "name": "JBL Flip 6",
+        "description": "JBL Flip 6 portable waterproof speaker",
+        "price": 129.99,
+        "category": "Audio",
+        "image": "/images/JBLFlip6.webp"
+    },
+    {
+        "id": "30",
+        "name": "Anker Soundcore Liberty Air 2 Pro",
+        "description": "Anker Soundcore Liberty Air 2 Pro true wireless earbuds",
+        "price": 129.99,
+        "category": "Audio",
+        "image": "/images/AnkerLibertyAir2.webp"
+    },
+    {
+        "id": "31",
+        "name": "Logitech G Pro X Superlight",
+        "description": "Logitech G Pro X Superlight wireless gaming mouse",
+        "price": 149.99,
+        "category": "Gaming",
+        "image": "/images/LogitechGProXSuperlight.webp"
+    },
+    {
+        "id": "32",
+        "name": "Razer Huntsman Elite",
+        "description": "Razer Huntsman Elite mechanical gaming keyboard",
+        "price": 199.99,
+        "category": "Gaming",
+        "image": "/images/RazerHuntsmanElite.webp"
+    },
+    {
+        "id": "33",
+        "name": "Corsair Vengeance LPX 32GB RAM",
+        "description": "Corsair Vengeance LPX 32GB DDR4 RAM",
+        "price": 129.99,
+        "category": "PC Parts",
+        "image": "/images/CorsairVengeanceLPX.webp"
+    },
+    {
+        "id": "34",
+        "name": "Seagate Barracuda 1TB",
+        "description": "Seagate Barracuda 1TB 7200RPM hard drive",
+        "price": 49.99,
+        "category": "PC Parts",
+        "image": "/images/SeagateBarracuda1TB.webp"
+    },
+    {
+        "id": "35",
+        "name": "NVIDIA GeForce RTX 4080",
+        "description": "NVIDIA GeForce RTX 4080 16GB GDDR6X graphics card",
+        "price": 1199.99,
+        "category": "PC Parts",
+        "image": "/images/RTX4080.webp"
+    },
+    {
+        "id": "36",
+        "name": "AMD Ryzen 7 7800X",
+        "description": "AMD Ryzen 7 7800X 8-core processor",
+        "price": 399.99,
+        "category": "PC Parts",
+        "image": "/images/AMDRyzen7800X.webp"
+    },
+    {
+        "id": "37",
+        "name": "Microsoft Surface Pro 9",
+        "description": "Microsoft Surface Pro 9 with Intel i5 and 256GB SSD",
+        "price": 1099.99,
+        "category": "Laptop",
+        "image": "/images/SurfacePro9.webp"
+    },
+    {
+        "id": "38",
+        "name": "LG UltraWide 34\" Monitor",
+        "description": "LG UltraWide 34-inch curved monitor",
+        "price": 499.99,
+        "category": "Monitor",
+        "image": "/images/LGUltraWide34.webp"
+    },
+    {
+        "id": "39",
+        "name": "Philips Hue White and Color",
+        "description": "Philips Hue White and Color smart bulbs starter kit",
+        "price": 199.99,
+        "category": "Smart Home",
+        "image": "/images/PhilipsHueSmartBulbs.webp"
+    },
+    {
+        "id": "40",
+        "name": "Arlo Pro 4 Security Camera",
+        "description": "Arlo Pro 4 wireless security camera system",
+        "price": 299.99,
+        "category": "Smart Home",
+        "image": "/images/ArloPro4.webp"
+    },
+    {
+        "id": "41",
+        "name": "Oculus Quest 2",
+        "description": "Oculus Quest 2 virtual reality headset",
+        "price": 299.99,
+        "category": "Gaming",
+        "image": "/images/OculusQuest2.webp"
+    },
+    {
+        "id": "42",
+        "name": "Alienware Aurora R13",
+        "description": "Alienware Aurora R13 gaming desktop with Intel i9 and RTX 3070",
+        "price": 2299.99,
+        "category": "PC",
+        "image": "/images/AlienwareAuroraR13.webp"
+    },
+    {
+        "id": "43",
+        "name": "SteelSeries Arctis 7",
+        "description": "SteelSeries Arctis 7 wireless gaming headset",
+        "price": 149.99,
+        "category": "Audio",
+        "image": "/images/SteelSeriesArctis7.webp"
+    },
+    {
+        "id": "44",
+        "name": "Bose SoundLink Revolve",
+        "description": "Bose SoundLink Revolve Bluetooth speaker",
+        "price": 199.99,
+        "category": "Audio",
+        "image": "/images/BoseSoundLinkRevolve.webp"
+    },
+    {
+        "id": "45",
+        "name": "Sonos Beam Gen 2",
+        "description": "Sonos Beam Gen 2 soundbar with Dolby Atmos",
+        "price": 449.99,
+        "category": "Audio",
+        "image": "/images/SonosBeamGen2.webp"
+    },
+    {
+        "id": "46",
+        "name": "Nikon D850",
+        "description": "Nikon D850 DSLR camera with 45.7MP resolution",
+        "price": 2999.99,
+        "category": "Camera",
+        "image": "/images/NikonD850.webp"
+    },
+    {
+        "id": "47",
+        "name": "Fujifilm X-T4",
+        "description": "Fujifilm X-T4 mirrorless camera with in-body stabilization",
+        "price": 1699.99,
+        "category": "Camera",
+        "image": "/images/FujifilmXT4.webp"
+    },
+    {
+        "id": "48",
+        "name": "BenQ Zowie XL2546K",
+        "description": "BenQ Zowie XL2546K 24.5-inch gaming monitor",
+        "price": 379.99,
+        "category": "Monitor",
+        "image": "/images/BenQZowieXL2546K.webp"
+    },
+    {
+        "id": "49",
+        "name": "Acer Predator Helios 300",
+        "description": "Acer Predator Helios 300 gaming laptop with Intel i7",
+        "price": 1599.99,
+        "category": "Laptop",
+        "image": "/images/AcerPredatorHelios300.webp"
+    },
+    {
+        "id": "50",
+        "name": "Razer Kraken V3",
+        "description": "Razer Kraken V3 wired gaming headset with RGB lighting",
+        "price": 99.99,
+        "category": "Audio",
+        "image": "/images/RazerKrakenV3.webp"
+    }
+]
